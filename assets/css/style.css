@@ -3,14 +3,6 @@
 \*-----------------------------------*/
 
 
-/**
- * copyright 2022 @codewithsadee
- */
-
-
-
-
-
 /*-----------------------------------*\
   #CUSTOM PROPERTY
 \*-----------------------------------*/
@@ -68,7 +60,7 @@
   --light-gray: hsl(0, 0%, 84%);
   --light-gray-70: hsla(0, 0%, 84%, 0.7);
   --bittersweet-shimmer: hsl(0, 43%, 51%);
-  --blue: hsl(181, 100%, 50%); /* Correctly defined blue */
+  --custom-color: hsla(240, 2%, 12%, 0.92); /* Correctly defined blue */
 
   /**
    * typography
@@ -114,8 +106,6 @@
 
 
 
-
-
 /*-----------------------------------*\
   #RESET
 \*-----------------------------------*/
@@ -156,9 +146,10 @@ input, textarea {
 
 html { font-family: var(--ff-poppins); }
 
-body { background: var(--smoky-black); }
+/* body { background: var(--white-2); } */
 
-
+body { 
+  background: url('../images/bg_moving.mp4') }  /*Change the background color */
 
 
 /*-----------------------------------*\
@@ -167,7 +158,7 @@ body { background: var(--smoky-black); }
 
 .sidebar,
 article {
-  background: var(--eerie-black-2);
+  background: var(--custom-color);
   border: 1px solid var(--jet);
   border-radius: 20px;
   padding: 15px;
