@@ -271,7 +271,7 @@ article.active {
   border-radius: 14px;
   box-shadow: var(--shadow-2);
   cursor: pointer;
-  z-index: 2; /* was 1 before */
+  z-index: auto;
 }
 
 .content-card::before {
