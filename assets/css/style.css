@@ -146,10 +146,7 @@ input, textarea {
 
 html { font-family: var(--ff-poppins); }
 
-/* body { background: var(--white-2); } */
-
-body { 
-  background: url('../images/bg_moving.mp4') }  /*Change the background color */
+body { background: var(--smoky-black); }
 
 
 /*-----------------------------------*\
@@ -271,7 +268,7 @@ article.active {
   border-radius: 14px;
   box-shadow: var(--shadow-2);
   cursor: pointer;
-  z-index: auto;
+  z-index: 1;
 }
 
 .content-card::before {
