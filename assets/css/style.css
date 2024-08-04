@@ -777,10 +777,21 @@ main {
 
 .timeline-item:not(:last-child) { margin-bottom: 20px; }
 
+.university-logo {
+  width: 50px; /* Adjust the size as needed */
+  height: auto;
+}
+
 .timeline-item-title {
   font-size: var(--fs-6);
   line-height: 1.3;
   margin-bottom: 7px;
+}
+
+.timeline-item-content {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
 }
 
 .timeline-list span {
