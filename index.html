@@ -378,8 +378,139 @@
               <span>2020.08-2024.05</span>
               <br>
               <p class="timeline-text">
-                - Core Courses: Machine Learning (CS189), Artificial Intelligence (CS188), Database Management System (CS186), Efficient Algorithms and Intractable Problems (CS170), Optimization Models in Engineering (EECS127), Computer Security (CS161), Data Structures (CS61B), Concepts of Probability (Stat134), Game Theory (Stat155)
+                Core Courses: Machine Learning (CS189), Artificial Intelligence (CS188), Database Management System (CS186), Efficient Algorithms and Intractable Problems (CS170), Optimization Models in Engineering (EECS127), Computer Security (CS161), Data Structures (CS61B), Concepts of Probability (Stat134), Game Theory (Stat155)
               </p>
+          </ol>
+
+        </section>
+
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Software Engineer Intern</h4>
+              <h4 class="h4 timeline-item-title">Hu’nan Creator Information Technologies Corporation Limited</h4>
+              <span>Dec 2023 - Feb 2024</span>
+              <p class="timeline-text">
+                • Developed and maintained software solutions for smart city projects, focusing on front-end and back-end development. <br>
+                • Collaborated with cross-functional teams to design and implement new features in educational and healthcare applications.
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Research Assitant</h4>
+              <span>Sep 2022 — Present</span>
+              <p class="timeline-text">
+                &#8226; Applying and Optimizing Machine Learning Algorithms (random forest, GNN, etc.) for biological data analysis. <br>
+                &#8226; Write Shell Bash Scripts to perform Molecular Dynamic simulations, increasing calculation speed by 80% compared to traditional workflows. <br>
+                &#8226; Developing and Maintaining lab website.
+              </p>
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Python</h5>
+                <data value="70">90%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Java</h5>
+                <data value="70">83%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">C++</h5>
+                <data value="70">85%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">SQL (MySQL, SQLite)</h5>
+                <data value="70">80%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">NoSQL (MongoDB)</h5>
+                <data value="70">90%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Web design</h5>
+                <data value="80">80%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Graphic design</h5>
+                <data value="70">70%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Algorithms Design</h5>
+                <data value="70">70%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
 
 
         <!--
@@ -1094,14 +1225,36 @@
       -->
 
       <article class="resume" data-page="resume">
+        
+        <style>
+          body, html {
+              margin: 0;
+              padding: 0;
+              height: 100%;
+          }
+          .resume .pdf-container {
+              position: relative;
+              width: 100%;
+              height: 0;
+              padding-bottom: 75%; /* Adjust the percentage based on the aspect ratio you want */
+          }
+          .resume .pdf-container iframe {
+              position: absolute;
+              top: 0;
+              left: 0;
+              width: 100%;
+              height: 100%;
+              border: none;
+          }
+      </style>
 
         <header>
           <h2 class="h2 article-title">Resume</h2>
         </header>
         
           <!-- Option 1: Embedded PDF Viewer -->
-        <section>
-          <iframe src="./assets/Jiawei_Chen_Resume.pdf" width="100%" height="1080px">
+        <section class="pdf-container">
+          <iframe src="./assets/Jiawei_Chen_Resume.pdf">
             This browser does not support PDFs. Please download the PDF to view it: 
             <a href="./assets/resume.pdf">Download PDF</a>
           </iframe>
@@ -1112,6 +1265,7 @@
         <section>
           <a href="./assets/Jiawei_Chen_Resume.pdf" download>Download Resume</a>
         </section>
+
 
         <!-- 
         <section class="timeline">

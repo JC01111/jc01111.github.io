@@ -160,7 +160,7 @@ article {
   border-radius: 20px;
   padding: 15px;
   box-shadow: var(--shadow-1);
-  z-index: 2;
+  z-index: 1;
 }
 
 .separator {
@@ -814,7 +814,7 @@ main {
 .timeline-text {
   color: var(--light-gray);
   font-weight: var(--fw-300);
-  line-height: 1.6;
+  line-height: 1.7;
 }
 
 
