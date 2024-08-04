@@ -182,8 +182,7 @@
         </figure>
 
         <div class="info-content">
-          <h1 class="name" title="Jiawei Chenk">Jiawei Chen</h1>
-
+          <h1 class="name" title="Jiawei Chen">Jiawei Chen</h1>
           <p class="title">Software Engineer</p>
         </div>
 
@@ -209,10 +208,9 @@
 
             <div class="contact-info">
               <p class="contact-title">Email</p>
-
               <a href="mailto:imjwchen@gmail.com" class="contact-link">imjwchen@gmail.com</a>
             </div>
-
+            
           </li>
 
           <!-- <li class="contact-item">
@@ -388,7 +386,6 @@
             </li>
         
           </ol>
-        
         </section>
 
 
@@ -420,7 +417,7 @@
 
           <div class="title-wrapper">
             <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
+              <ion-icon name="id-card-outline"></ion-icon>
             </div>
 
             <h3 class="h3">Experience</h3>
@@ -451,6 +448,64 @@
           </ol>
 
         </section>
+
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="code-working-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Selected Projects</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title"><a href="https://github.com/JC01111/Machine-Learning-Projects" target="_blank" class="project-link"> <p style="color: rgb(37, 105, 252);"><u>Machine Learning Projects (Python)</u> </p> </a></h4>
+              <span>Jul 2023 - May 2024</span>
+              <p class="timeline-text">
+                • Developed a Convolutional Neural Network (CNN) to classify CIFAR-10 images with 85.3% accuracy, ranking in the top 3% in Kaggle competition. <br>
+                • Performed data cleaning and built a Random Forest model to predict Titanic survival with 82% accuracy, ranking in the top 5% in Kaggle competition. <br>
+                • Implemented Recurrent Neural Network (RNN) and Neural Network to classify digits and language identification. <br>
+                • Specified and fitted linear regression model to predict housing prices (≈ 85% accuracy) <br>
+                • Classified junk and ham emails by a binary classifier (≈ 85% accuracy)
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title"><a href="https://github.com/JC01111/Database-Management-System" target="_blank" class="project-link"> <p style="color: rgb(37, 105, 252);"><u>Database Management System (Java)</u> </p> </a></h4>
+              <span>Mar 2024</span>
+              <p class="timeline-text">
+                • Implemented transaction management systems to ensure ACID properties and handle concurrency control. <br>
+                • Worked on indexing mechanisms and SQL query optimization, leading to a 20% improvement in performance. <br>
+                • Implemented the ARIES recovery algorithm to ensure robust database recovery and fault tolerance. <br>
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title"><a href="https://github.com/JC01111/Computer-Graphics-Projects" target="_blank" class="project-link"> <p style="color: rgb(37, 105, 252);"><u>Computer Graphics Projects (C++)</u> </p> </a></h4>
+              <span>Feb 2024</span>
+              <p class="timeline-text">
+                • Implemented a rasterizer with features like drawing triangles, supersampling, hierarchical transforms, and texture mapping with antialiasing, resulting in a functional vector graphics renderer for simplified SVG files. <br>
+                • Developed geometric modeling techniques by building Bezier curves and surfaces using de Casteljau’s algorithm, manipu- lating triangle meshes with half-edge data structure, and implementing mesh upsampling.
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title"><a href="https://github.com/JC01111/Data-Analysis-Projects" target="_blank" class="project-link"> <p style="color: rgb(37, 105, 252);"><u>Data Analysis Projects (Python)</u> </p> </a></h4>
+              <span>Mar 2023</span>
+              <p class="timeline-text">
+                • “World Population and Poverty”: explored data from Gapminder.org to understand and analysis the world population and poverty. <br>
+                • “Climate Change - Temperatures and Precipitation”: investigated data on climate change, and the long-term shifts in temperatures and weather patterns.
+              </p>
+            </li>
+
+          </ol>
+
+        </section>
+
 
         <section class="skill">
 
@@ -528,7 +583,7 @@
               </div>
             </li>
 
-            <li class="skills-item">
+            <!-- <li class="skills-item">
               <div class="title-wrapper">
                 <h5 class="h5">Web design</h5>
                 <data value="78">78%</data>
@@ -545,6 +600,16 @@
               </div>
               <div class="skill-progress-bg">
                 <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+            </li> -->
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Data Analysis</h5>
+                <data value="93">93%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 93%;"></div>
               </div>
             </li>
 
@@ -1132,6 +1197,12 @@
                 <li class="filter-item">
                     <button data-filter-btn>R&B</button>
                 </li>
+                <li class="filter-item">
+                  <button data-filter-btn>Indie</button>
+                </li>
+                <li class="filter-item">
+                  <button data-filter-btn>Rap</button>
+              </li>
             </ul>
     
             <div class="filter-select-box">
@@ -1148,41 +1219,105 @@
                     <li class="select-item">
                         <button data-select-item>R&B</button>
                     </li>
+                    <li class="select-item">
+                      <button data-select-item>Indie</button>
+                  </li>
+                  <li class="select-item">
+                    <button data-select-item>Rap</button>
+                </li>
                 </ul>
             </div>
     
             <ul class="project-list">
-                <li class="project-item active" data-filter-item data-category="r&b">
-                    <a href="#" id="music-link-1">
-                        <figure class="project-img" id="music-figure-1">
-                            <img src="./assets/images/music_default.png" alt="You Say" loading="lazy">
-                            <div class="project-item-icon-box" id="play-icon-box-1">
-                                <ion-icon name="play-circle-outline" id="play-icon-1" class="music-control-icon"></ion-icon>
-                            </div>
-                        </figure>
-                        <h3 class="project-title">You Say</h3>
-                        <p class="project-category">R&B</p>
-                    </a>
-                </li>
-    
-                <li class="project-item active" data-filter-item data-category="r&b">
-                    <a href="#" id="music-link-2">
-                        <figure class="project-img" id="music-figure-2">
-                            <img src="./assets/images/music_default.png" alt="浪漫爱" loading="lazy">
-                            <div class="project-item-icon-box" id="play-icon-box-2">
-                                <ion-icon name="play-circle-outline" id="play-icon-2" class="music-control-icon"></ion-icon>
-                            </div>
-                        </figure>
-                        <h3 class="project-title">浪漫爱</h3>
-                        <p class="project-category">R&B</p>
-                    </a>
-                </li>
+
+              <li class="project-item active" data-filter-item data-category="indie">
+                <a href="#" id="music-link-3">
+                    <figure class="project-img" id="music-figure-3">
+                        <img src="./assets/images/album_covers/3AM_cover.JPG" alt="3AM" loading="lazy">
+                        <div class="project-item-icon-box" id="play-icon-box-3">
+                            <ion-icon name="play-circle-outline" id="play-icon-3" class="music-control-icon"></ion-icon>
+                        </div>
+                    </figure>
+                    <h3 class="project-title">3AM</h3>
+                    <p class="project-category">Indie</p>
+                </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="rap">
+              <a href="#" id="music-link-4">
+                  <figure class="project-img" id="music-figure-4">
+                      <img src="./assets/images/album_covers/如果有一天_cover.JPG" alt="如果有一天" loading="lazy">
+                      <div class="project-item-icon-box" id="play-icon-box-4">
+                          <ion-icon name="play-circle-outline" id="play-icon-4" class="music-control-icon"></ion-icon>
+                      </div>
+                  </figure>
+                  <h3 class="project-title">如果有一天</h3>
+                  <p class="project-category">Rap</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="r&b">
+                <a href="#" id="music-link-1">
+                    <figure class="project-img" id="music-figure-1">
+                        <img src="./assets/images/album_covers/想和你.JPG" alt="You Say" loading="lazy">
+                        <div class="project-item-icon-box" id="play-icon-box-1">
+                            <ion-icon name="play-circle-outline" id="play-icon-1" class="music-control-icon"></ion-icon>
+                        </div>
+                    </figure>
+                    <h3 class="project-title">You Say</h3>
+                    <p class="project-category">R&B</p>
+                </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="r&b">
+                <a href="#" id="music-link-2">
+                    <figure class="project-img" id="music-figure-2">
+                        <img src="./assets/images/album_covers/想和你.JPG" alt="浪漫爱" loading="lazy">
+                        <div class="project-item-icon-box" id="play-icon-box-2">
+                            <ion-icon name="play-circle-outline" id="play-icon-2" class="music-control-icon"></ion-icon>
+                        </div>
+                    </figure>
+                    <h3 class="project-title">浪漫爱</h3>
+                    <p class="project-category">R&B</p>
+                </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="indie">
+              <a href="#" id="music-link-5">
+                  <figure class="project-img" id="music-figure-5">
+                      <img src="./assets/images/album_covers/给18的自己——cover.JPG" alt="my18" loading="lazy">
+                      <div class="project-item-icon-box" id="play-icon-box-5">
+                          <ion-icon name="play-circle-outline" id="play-icon-5" class="music-control-icon"></ion-icon>
+                      </div>
+                  </figure>
+                  <h3 class="project-title">my18</h3>
+                  <p class="project-category">Indie</p>
+              </a>
+          </li>
+
+          <li class="project-item active" data-filter-item data-category="r&b">
+            <a href="#" id="music-link-6">
+                <figure class="project-img" id="music-figure-6">
+                    <img src="./assets/images/album_covers/想和你.JPG" alt="Wish with you" loading="lazy">
+                    <div class="project-item-icon-box" id="play-icon-box-6">
+                        <ion-icon name="play-circle-outline" id="play-icon-6" class="music-control-icon"></ion-icon>
+                    </div>
+                </figure>
+                <h3 class="project-title">Wish with you</h3>
+                <p class="project-category">R&B</p>
+            </a>
+        </li>
+
             </ul>
         </section>
     
         <!-- Audio Files -->
         <audio id="myMusic-1" src="./assets/music/You_Say.m4a"></audio>
         <audio id="myMusic-2" src="./assets/music/浪漫爱.wav"></audio>
+        <audio id="myMusic-3" src="./assets/music/3AM.mp3"></audio>
+        <audio id="myMusic-4" src="./assets/music/如果有一天.mp3"></audio>
+        <audio id="myMusic-5" src="./assets/music/My18.mp3"></audio>
+        <audio id="myMusic-6" src="./assets/music/想和你.mp3"></audio>
     
         <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
         <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
@@ -1218,6 +1353,26 @@
             document.getElementById('music-figure-2').addEventListener('click', function(event) {
                 event.preventDefault();
                 togglePlayPause('myMusic-2', 'play-icon-2');
+            });
+
+            document.getElementById('music-figure-3').addEventListener('click', function(event) {
+                event.preventDefault();
+                togglePlayPause('myMusic-3', 'play-icon-3');
+            });
+
+            document.getElementById('music-figure-4').addEventListener('click', function(event) {
+                event.preventDefault();
+                togglePlayPause('myMusic-4', 'play-icon-4');
+            });
+
+            document.getElementById('music-figure-5').addEventListener('click', function(event) {
+                event.preventDefault();
+                togglePlayPause('myMusic-5', 'play-icon-5');
+            });
+
+            document.getElementById('music-figure-6').addEventListener('click', function(event) {
+                event.preventDefault();
+                togglePlayPause('myMusic-6', 'play-icon-6');
             });
         </script>
     </article>

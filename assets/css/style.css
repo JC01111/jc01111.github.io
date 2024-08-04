@@ -1360,11 +1360,13 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .separator { margin: 32px 0; }
 
-  .contacts-list { gap: 20px; }
+  .contacts-list { gap: 20px;
+    z-index: 1; }
 
   .contact-info {
     max-width: calc(100% - 64px);
     width: calc(100% - 64px);
+    z-index: 1;
   }
 
 
